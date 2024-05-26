@@ -58,61 +58,7 @@
                       "bottom": 8
                     }
                   },
-                  "onPressed": {
-                    "actionType": "showDialog",
-              "widget": {
-                "type": "alertDialog",
-                "content": {
-                  "type": "padding",
-                  "padding": {
-                    "top": 0,
-                    "left": 12,
-                    "right": 12,
-                    "bottom": 8
-                  },
-                  "child": {
-                    "type": "text",
-                    "data": "Discard draft?",
-                    "align": "center",
-                    "style": {
-                      "fontSize": 14
-                    }
-                  }
-                },
-                "actions": [
-                  {
-                    "type": "textButton",
-                    "child": {
-                      "type": "text",
-                      "data": "CANCEL"
-                    },
-                    "onPressed": {
-                      "actionType": "navigate",
-                      "navigationStyle": "pop"
-                    }
-                  },
-                  {
-                    "type": "sizedBox",
-                    "width": 8
-                  },
-                  {
-                    "type": "textButton",
-                    "child": {
-                      "type": "text",
-                      "data": "DISCARD"
-                    },
-                    "onPressed": {
-                      "actionType": "navigate",
-                      "navigationStyle": "pop"
-                    }
-                  },
-                  {
-                    "type": "sizedBox",
-                    "width": 12
-                  }
-                ]
-              }
-                  },
+                  "onPressed": {},
                   "child": {
                     "type": "text",
                     "data": "Explore",
@@ -136,7 +82,61 @@
                       "bottom": 8
                     }
                   },
-                  "onPressed": {},
+                  "onPressed": {
+                    "actionType": "showDialog",
+                    "widget": {
+                      "type": "alertDialog",
+                      "content": {
+                        "type": "padding",
+                        "padding": {
+                          "top": 0,
+                          "left": 12,
+                          "right": 12,
+                          "bottom": 8
+                        },
+                        "child": {
+                          "type": "text",
+                          "data": "Discard draft?",
+                          "align": "center",
+                          "style": {
+                            "fontSize": 14
+                          }
+                        }
+                      },
+                      "actions": [
+                        {
+                          "type": "textButton",
+                          "child": {
+                            "type": "text",
+                            "data": "CANCEL"
+                          },
+                          "onPressed": {
+                            "actionType": "navigate",
+                            "navigationStyle": "pop"
+                          }
+                        },
+                        {
+                          "type": "sizedBox",
+                          "width": 8
+                        },
+                        {
+                          "type": "textButton",
+                          "child": {
+                            "type": "text",
+                            "data": "DISCARD"
+                          },
+                          "onPressed": {
+                            "actionType": "navigate",
+                            "navigationStyle": "pop"
+                          }
+                        },
+                        {
+                          "type": "sizedBox",
+                          "width": 12
+                        }
+                      ]
+                    }
+                  },
                   "child": {
                     "type": "text",
                     "data": "Share",
